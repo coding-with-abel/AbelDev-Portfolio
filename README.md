@@ -1,33 +1,75 @@
 # AbelDev Portfolio
 
-A clean, minimalist portfolio landing page for **AbelDev**, built with React, TypeScript, Vite, Tailwind CSS, and Framer Motion.
+A modern portfolio website showcasing my work as a full-stack developer.
 
-## Sections
+**Live:** [abeldev-portfolio.vercel.app](https://abeldev-portfolio.vercel.app)
 
-- **Hero** — Name, role, and short introduction
-- **Projects** — Selected work samples
-- **Skills** — Technical and design capabilities
-- **Links** — Social and professional profiles
-- **Contact** — Contact form and details
-- **Footer** — Simple closing section
+---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- React 18
-- TypeScript 5
-- Vite 5
-- Tailwind CSS 3
-- Framer Motion
+- **Frontend:** React 18, TypeScript, Tailwind CSS, Framer Motion, Vite
+- **Backend:** Node.js, Express, Nodemailer
+- **Deployment:** Vercel
 
-## Development
+---
+
+## 🚀 Getting Started
+
+### Install & Setup
 
 ```bash
-bun install
-bun run dev
+git clone https://github.com/coding-with-abel/abeldev-portfolio.git
+cd abeldev-portfolio
+npm install
 ```
 
-## Build
+### Environment Variables
 
+Create `.env.local`:
+```
+GMAIL_USER=your-email@gmail.com
+GMAIL_PASSWORD=your-gmail-app-password
+```
+
+[Get Gmail App Password](https://myaccount.google.com/apppasswords)
+
+### Run Locally
+
+**Terminal 1:**
 ```bash
-bun run build
+npm run dev
 ```
+
+**Terminal 2:**
+```bash
+npm run dev:api
+```
+
+Visit `http://localhost:5173`
+
+---
+
+## 🌐 Deploy to Vercel
+
+1. Push to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Import your repository
+4. Add environment variables (`GMAIL_USER`, `GMAIL_PASSWORD`)
+5. Deploy
+
+---
+
+## 📁 Project Structure
+
+```
+src/components/ → Hero, Projects, Skills, Contact, etc.
+api/contact.js → Email serverless function
+public/images/ → Project screenshots
+```
+
+---
+
+## 👤 Author
+
+**Abel Olanrewaju** — [GitHub](https://github.com/coding-with-abel)
