@@ -1,5 +1,5 @@
 import { Reveal } from './Reveal'
-import { Code2, Server, Palette, Wrench, BookOpen } from 'lucide-react'
+import { Code2, Server, Wrench, } from 'lucide-react'
 
 const skillCategories = [
   {

@@ -1,5 +1,5 @@
 import { Reveal } from './Reveal'
-import { Github, MessageCircle, Twitter, Mail, ArrowUpRight } from 'lucide-react'
+import { Github, MessageCircle, Twitter, ArrowUpRight } from 'lucide-react'
 
 const links = [
   {
